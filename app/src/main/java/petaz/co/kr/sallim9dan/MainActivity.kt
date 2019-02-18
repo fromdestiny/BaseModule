@@ -18,8 +18,15 @@ class MainActivity : PresenterActivity<MainPresenter.View>(), MainPresenter.View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.e("Test","hotfix new working !!!!!")
+        Log.e("Test","hotfix new working !!!!!")
+        Log.e("Test","hotfix new working !!!!!")
+        Log.e("Test","hotfix new working !!!!!")
+        Log.e("Test","hotfix new working !!!!!")
+        
         Log.e("Test","hotfix working !!!!!")
         Log.e("Test","master branch!!!")
+        Log.e("Test","hotfix new working !!!!!")
     }
 
 
