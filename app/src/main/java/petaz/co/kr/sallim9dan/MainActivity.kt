@@ -19,6 +19,7 @@ class MainActivity : PresenterActivity<MainPresenter.View>(), MainPresenter.View
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        Log.e("Test","add master log ")
     }
 
 
