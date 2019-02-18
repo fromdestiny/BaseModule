@@ -18,8 +18,6 @@ class MainActivity : PresenterActivity<MainPresenter.View>(), MainPresenter.View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e("Test","master gogo working !!")
-        Log.e("Test","hotfix new working !!!!!")
 
     }
 
@@ -29,7 +27,6 @@ class MainActivity : PresenterActivity<MainPresenter.View>(), MainPresenter.View
     }
 
     override fun inject() {
-        Log.e("Test","hotfix working !!!!!")
         DaggerActivityComponent.builder()
                 .appComponent(MyApp.getAppComponent(this))
                 .activityModule(ActivityModule(this))
