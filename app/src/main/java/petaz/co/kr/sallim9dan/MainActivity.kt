@@ -3,6 +3,7 @@ package petaz.co.kr.sallim9dan
 import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import petaz.co.kr.sallim9dan.base.BasePresenter
 import petaz.co.kr.sallim9dan.base.PresenterActivity
 import petaz.co.kr.sallim9dan.module.ActivityModule
@@ -17,6 +18,7 @@ class MainActivity : PresenterActivity<MainPresenter.View>(), MainPresenter.View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.e("Test","master branch!!!")
     }
 
 
