@@ -20,6 +20,20 @@ class MainActivity : PresenterActivity<MainPresenter.View>(), MainPresenter.View
         super.onCreate(savedInstanceState)
         Log.e("Test","hotfix working !!!!!")
         Log.e("Test","master branch!!!")
+
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+        Log.e("Test","master gogo working !!")
+
+
     }
 
 
