@@ -41,7 +41,11 @@ class MainActivity : PresenterActivity<MainPresenter.View>(), MainPresenter.View
     }
 
     override fun getContext(): Context {
+
+        Log.e("Test","make")
         return this
+
+
     }
 
     override fun showProgress() {
